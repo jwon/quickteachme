@@ -1,0 +1,20 @@
+p {
+	background-color: green;
+	color: yellow;
+	font-family: verdana, arial, sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: small-caps;
+	line-height: 40px;
+}
+
+body {
+    background-color: #EEE;
+    background-image: url(http://i.imgur.com/z4WUADn.jpg);
+    background-repeat: repeat-x;
+    background-position: center 50px;
+    /* All of the above can be written as: */
+    background: #EEE url(http://i.imgur.com/z4WUADn.jpg) repeat-x center 50px;
+    background-size: 75px;
+}

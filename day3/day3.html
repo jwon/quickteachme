@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 3</title>
+</head>
+<body>
+	<h1>Survey</h1>
+	<ol>
+		<li>Tell me about yourself.</li>
+		<li>Download a Ron Swanson sticker.</li>
+	</ol>
+	<form action="http://salutetherobotvictory.com/" target="_blank" method="get">
+		<fieldset>
+			<legend>Name</legend>
+			<label for="first_name">First Name</label>
+			<input type="text" name="first_name" id="first_name" />
+			<label for="last_name">Last Name</label>
+			<input type="text" name="last_name" id="last_name" />
+		</fieldset>
+		<fieldset>
+			<legend>Gender</legend>
+			<input type="radio" name="gender" value="male" id="gender_male"/>
+			<label for="gender_male">Male</label>
+			<input type="radio" name="gender" value="female" id="gender_female"/>
+			<label for="gender_female">Female</label>
+		</fieldset>
+		<fieldset>
+			<legend>Other</legend>
+			<label for="age">Age</label>
+			<select name="age" id="age">
+				<option value="18-25">18-25</option>
+				<option value="26-35">26-35</option>
+				<option value="36-45">36-45</option>
+				<option value="46+">46+</option>
+			</select>
+			<input type="checkbox" name="loves_class" id="loves_class" value="yes" checked="true" />
+			<label for="loves_class">Yes, I love this class!</label><br/><br/>
+			<label for="description">Description</label><br/>
+			<textarea name="description" id="description" cols="25" rows="3"></textarea>
+		</fieldset>
+		<input type="reset" />
+	    <input type="submit"/>
+	</form>
+	<p>Click <a href="http://i.imgur.com/z4WUADn.jpg" target="_blank">here</a> to open this image in a new tab or window:</p>
+	<img src="http://i.imgur.com/z4WUADn.jpg" width="100" height="100" />
+</body>
+</html>
