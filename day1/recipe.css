@@ -1,0 +1,24 @@
+h1 {
+	font-family: arial;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #f06;
+}
+
+h2 {
+	color: blue;
+	font-family: arial;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+li {
+	background-color: #DDD;
+}
+
+body {
+	background: #EEE url(http://i.imgur.com/z4WUADn.jpg) no-repeat top right;
+	background-size: 25px;
+}	

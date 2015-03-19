@@ -1,0 +1,29 @@
+div {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
+
+.clear {
+	clear: both
+}
+
+.red {
+	background-color: cyan;
+}
+
+.orange {
+	background-color: violet;
+}
+
+.yellow {
+	background-color: blue;
+}
+
+.green {
+	background-color: purple;
+}
+
+body {
+	
+}
