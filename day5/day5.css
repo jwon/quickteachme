@@ -1,0 +1,41 @@
+li {
+	float: left;
+	padding: 10px 20px;
+}
+
+ul {
+	background: black;
+	font-family: arial;
+	color: white;
+	box-shadow: 2px	3px	3px	#999;
+	position: fixed;
+	width: 100%;
+}
+
+.column {
+	float: left;
+	padding: 2%;
+	width: 29%;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.column img {
+	width: 200px;
+}
+
+li li {
+	float: none;
+}
+
+li ul {
+	position: absolute;
+	display: none;
+	width: 20%
+}
+
+li:hover ul {
+	display: block;
+}
